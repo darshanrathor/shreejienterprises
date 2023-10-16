@@ -5,7 +5,7 @@ import {AiOutlineClose} from 'react-icons/ai'
 import {BsFacebook,BsWhatsapp} from 'react-icons/bs'
 import {BiLogoGmail} from 'react-icons/bi'
 import Image from 'next/image'
-import Contact from '@/pages/Contact'
+
 
 
 const navbar = () => {
