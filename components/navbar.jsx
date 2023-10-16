@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React, { useState  } from 'react'
-import {FiMenu} from 'react-icons/FI'
+import {FiMenu} from 'react-icons/fi'
 import {AiOutlineClose} from 'react-icons/ai'
 import {BsFacebook,BsWhatsapp} from 'react-icons/bs'
 import {BiLogoGmail} from 'react-icons/bi'
