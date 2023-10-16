@@ -23,7 +23,7 @@ const Categories = () => {
     <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] 
     lg:mb-0" data-te-ripple-init data-te-ripple-color="light">
       <div class="relative overflow-hidden bg-cover bg-no-repeat">
-        <img src="/Bakground/shutterstock_1685199349.jpg" class="w-full rounded-t-lg" />
+        <img src="/Bakground/electrical.jpg" class="w-full rounded-t-lg" />
         <a href="#!">
           <div
             class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300
@@ -62,7 +62,7 @@ const Categories = () => {
     <div class="mb-6  block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
      lg:mb-0">
       <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-        <img src="/bakground/istockphoto-838475624-612x612.jpg" class="w-full rounded-t-lg" />
+        <img src="/Bakground/civil.jpg" class="w-full rounded-t-lg" />
         <a href="#!">
           <div
             class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out
@@ -99,7 +99,7 @@ const Categories = () => {
     <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
      ">
       <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-        <img src="/bakground/BG.PNG" class="w-full rounded-t-lg" />
+        <img src="/Bakground/bg.png" class="w-full rounded-t-lg" />
         <a href="#!">
           <div
             class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -142,7 +142,7 @@ const Categories = () => {
 <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
   lg:mb-0" data-te-ripple-init data-te-ripple-color="light">
 <div class="relative overflow-hidden bg-cover bg-no-repeat">
- <img src="/Bakground/istockphoto-905880050-612x612.jpg" class="w-full rounded-t-lg" />
+ <img src="/Bakground/Ceiling.jpg" class="w-full rounded-t-lg" />
  <a href="#!">
    <div
      class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -177,7 +177,7 @@ const Categories = () => {
 <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
  lg:mb-0">
 <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
- <img src="/bakground/depositphotos_160825566-stock-photo-group-of-worker-installing-tar.jpg" class="w-full rounded-t-lg" />
+ <img src="/Bakground/Proofing.jpg" class="w-full rounded-t-lg" />
  <a href="#!">
    <div
      class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -213,7 +213,7 @@ const Categories = () => {
 <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
  ">
 <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
- <img src="/bakground/205873027-construction-site-bustling-with-activity-as-cranes-bulldozers-and-workers-build-a-high-rise-building.jpg" class="w-full rounded-t-lg" />
+ <img src="/Bakground/Cleaning.jpg" class="w-full rounded-t-lg" />
  <a href="#!">
    <div
      class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
