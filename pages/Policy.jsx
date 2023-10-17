@@ -5,22 +5,14 @@ const Policy = () => {
   return (
     <div>
 
-        <div className='  center  justify-center mx-auto w-full items-center  
-        overflow-hidden rounded-lg bg-cover bg-no-repeat text-center'  
-
-style={{
-    backgroundImage: 'url(../Bakground/safety-first-icon-illustration-free-vector.jpg)',
-    height: '220px',
-    width: "900px",
-    alignItems:"center",
-    justifyContent:"center",
-    
-  }}
-        
-        >
-
-
-        </div>
+<div className='hidden  w-full center justify-center mx-auto items-center  rounded-lg bg-cover bg-no-repeat text-center'
+    style={{
+        backgroundImage: 'url(../Bakground/Capture.PNG)',
+        height: '220px',
+        maxWidth: '100%',
+    }}
+>
+</div>
 
 
        
@@ -48,7 +40,7 @@ style={{
             <h2 class="mb-4 text-2xl font-bold">
             SAFETY CONTROL
             </h2>
-            <p class="mb-6 flex items-center font-bold uppercase text-danger dark:text-danger-500">
+            <p class="mb-6 flex items-center font-bold uppercase text-danger ">
               
             OUR GOAL: ZERO ACCIDENTS: SAFETY IS A VALUE THAT IS FUNDAMENTAL TO OUR CULTURE.
             </p>

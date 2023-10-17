@@ -4,7 +4,7 @@ const Section2 = () => {
   return (
     <div>
         
-       <div className='md:px-38 md:mt-10 md:p-[40px]'>
+       <div className='container p-5 my-24 mx-auto md:px-6'>
 
 {/*
 <div className='flex flex-col text-center items-center mb-20 mt-14   ' >
@@ -21,8 +21,8 @@ const Section2 = () => {
 
   </div>*/}
 
-<div className='flex flex-col text-center items-center mb-10 mt-  ' >
-<div className=" max-w-[600px] text-center items-center justify-center ">
+<div className='flex flex-col text-center items-center mb-10 ' >
+<div className="  text-center items-center justify-center ">
     <h3>
     THE SIZE OF OUR TEAM AND OUR PROTRACTED EXPERTISE ALLOW US TO ACCOMPLISH ABSOLUTELY ANY TYPE OF A BUILDING, REGARDLESS OF ITS HEIGHT AND/OR COMPLEXITY!
     </h3>
@@ -30,15 +30,16 @@ const Section2 = () => {
 
 </div>
 
-<div class="grid text-[#010A10] grid-cols-1 m-7 gap-9  grid-rows-1 md:grid-cols-2">
+<div class="grid  mx-auto text-[#010A10] md:grid-cols-2 overflow-x-auto">
 
   {/* 1st */}
 <div
-class="mr-4 flex  bg-white ">
-<div className='flex '>
+class=" grid bg-white ">
+<div className='flex top-0 mx-auto'>
   
 <svg fill="#000000" version="1.1" id="Capa_1" 
-	 className='w-[300px] h-[70px] transition-all  hover:fill-white hover:bg-red-700 mt-6 fill-red-700 bg-white rounded-full' viewBox="0 0 459.428 459.428"
+	 className='w-[300px] h-[65px] transition-all  hover:fill-white hover:bg-red-700 mt-6 fill-red-700
+	  bg-white rounded-full' viewBox="0 0 459.428 459.428"
 	 >
 <g>
 	<path d="M349.792,157.708l-19.856,19.856c9.316,17.136,14.62,36.652,14.62,57.459c0,66.232-53.924,120.156-120.156,120.156
@@ -57,12 +58,12 @@ class="mr-4 flex  bg-white ">
 </g>
 </svg>
   
-<div class="p-6">
+<div class="p-6   ">
 <h5
   class="mb-2 text-xl font-medium leading-tight text-[#010A10] ">
   Mission
 </h5>
-<p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+<p class="text-sm md:text-xl ">
 To provide quality workmanship and customer service and maintain the
 highest level of professionalism, honesty and fairness in our relationship with
 our customers, employees and vendors. To grow by continually providing
@@ -77,7 +78,7 @@ useful and significant products and services.
 {/* 2nd */}
 
 <div
-class="mr-4 flex rounded-lg bg-white ">
+class=" grid rounded-lg bg-white ">
 <div className='flex  top-0'>
 
 <svg viewBox="0 0 24 24" fill="none" className='w-[145px] h-[70px] transition-all  hover:fill-white
@@ -91,12 +92,12 @@ stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
   5 6.82137" stroke="#c60c0c" stroke-width="1.5" stroke-linecap="round"></path>
    <path d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 
    9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="#c60c0c" stroke-width="1.5"></path> </g></svg>
-<div class="p-6">
+<div class="p-6   ">
 <h5
-  class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+  class="mb-2 text-xl font-medium leading-tight text-neutral-800 ">
   Vision
 </h5>
-<p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+<p class="text-sm md:text-xl ">
 To be the preferred contractor of choice. A company that our clients want to
 work with and our employees are proud to work for.
 </p>
@@ -109,7 +110,7 @@ work with and our employees are proud to work for.
 
 
 <div
-class="mr-4 flex  bg-white ">
+class=" grid  bg-white ">
 <div className='flex  top-0'>
   
 <svg fill="#000000"    version="1.1" id="Capa_1" 
@@ -134,12 +135,12 @@ class="mr-4 flex  bg-white ">
 </g>
 </svg>
   
-<div class="p-6">
+<div class="p-6  ">
 <h5
-  class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+  class="mb-2 text-xl font-medium leading-tight text-neutral-800 ">
   Values
 </h5>
-<p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+<p class="text-sm md:text-xl ">
 We feel that our services are delivered to the highest standards at all times and
 we continually monitor the progress of our projects. Our aim is to provide the
 best possible service within the utility & construction industry whilst
@@ -154,7 +155,7 @@ maintaining the highest standard of customer satisfaction we can achieve.
 
 
 <div
-class="mr-4 flex rounded-lg bg-white  dark:bg-neutral-700">
+class=" mx-auto max-w-[600px] grid rounded-lg bg-white  ">
 <div className='flex  top-0'>
   
 <svg  viewBox="0 0 24 24"  className='w-[300px] h-[70px] transition-all fill-white    
@@ -163,12 +164,12 @@ class="mr-4 flex rounded-lg bg-white  dark:bg-neutral-700">
 <path d="M9 5H7C5.89543 5 5 5.89543 5 7V19C5 20.1046 5.89543 21 7 21H10M15 5H17C18.1046 5 19 5.89543 19 7V12" stroke="#A50113" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M13 19L15 21L20 16" stroke="#A50113" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg> 
-<div class="p-6">
+<div class="p-6  ">
 <h5
-  class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+  class="mb-2 text-xl font-medium leading-tight text-neutral-800 ">
   Standards
 </h5>
-<p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+<p class=" text-sm md:text-xl  ">
 Uncompromising integrity as our foundation, we will inspire, engage, create &
 deliver. Using our resources and human talent to their best advantage. 
 Educating the employees with the latest trends of the business. Making

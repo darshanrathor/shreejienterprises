@@ -12,7 +12,7 @@ const Whatwedo = () => {
     {/* 1st part */}
 
     <div class="py-14 md:pt-12 pb-16 lg:px-20 md:px-14 px-5 flex-col flex gap-7 items-center">
-        <span class="text-center text-4xl font-serif font-semibold text-[#A50113]">
+        <span class="text-center md:text-4xl text-2xl font-serif font-semibold text-[#A50113]">
             
             <span className='text-black'>WHAT </span> WE DO</span>
         

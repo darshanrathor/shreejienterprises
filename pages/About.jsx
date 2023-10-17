@@ -12,7 +12,7 @@ const About = () => {
     <>
 
 
-
+<div className='p-4 md:p-1 items-center justify-center'>
 
     <div className=' md:border-2 md:max-w-[800px] p-4 mx-auto  text-center items-center justify-center'>
 
@@ -25,7 +25,7 @@ const About = () => {
                         Shreeji Enterprises
             </div>
 
-            <h1 className='text-2xl mt-12 uppercase font-serif'>About Shreeji Enterprises</h1>
+            <h1 className='md:text-2xl w-full mt-12 uppercase font-serif'>About Shreeji Enterprises</h1>
 
 
                 <div className='mt-10 font-serif text-sm md:text-xl'>
@@ -64,7 +64,7 @@ esteemed clients.</p>
     
 
   
-
+    </div>
 
 
 

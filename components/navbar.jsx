@@ -8,8 +8,19 @@ import Image from 'next/image'
 
 
 
+
+
 const navbar = () => {
-    const[toggle,setToggle] =useState (false)
+    const [toggle, setToggle] = useState(false);
+  
+    const toggleMenu = () => {
+      setToggle(!toggle);
+    };
+
+    const passclose = () => {
+       
+        setToggle(false);
+      };
    
   return (
 
@@ -73,15 +84,28 @@ const navbar = () => {
 
             </div>  
 
-            {/*Responsive Menu  */}
+            {/*Responsive Menu  */} <div className={`duration-300 md:hidden bg-black/90 text-white w-[70%] h-screen flex flex-col 
+            fixed top-[80px] ${toggle ? 'left-[0]' : 'left-[-100%]'}`}>
 
-            <div className={`duration-300 md:hidden bg-black/90 text-white w-[70%] h-screen flex flex-col fixed top-[80px] ${toggle ? 'left-[0]' : 'left-[-100%]'}`}>
+<div className={`duration-300 md:hidden bg-black/90 text-white w-[70%] h-screen flex flex-col fixed top-[80px] ${toggle ? 'left-[0]' : 'left-[-100%]'}`}>
+      <Link href="/" onClick={passclose} className='hover:text-gray-400 p-5'>Home</Link>
+      <Link href="/About" onClick={passclose} className='hover:text-gray-400 p-5'>About Us</Link>
+      <Link href="/Whatwedo" onClick={passclose} className='hover:text-gray-400 p-5'>Service</Link>
+      <Link href="/Policy" onClick={passclose} className='hover:text-gray-400 p-5'>Policy & safety</Link>
+      <Link href="/gallery" onClick={passclose} className='hover:text-gray-400 p-5'>Gallery</Link>
+      <Link href="/Contact" onClick={passclose} className='hover:text-gray-400 p-5'>Contact Us</Link>
+      
+     
 
-            <Link href="/" className='hover:text-gray-400 p-5'>  Home</Link>
-                    <Link href="/" className='hover:text-gray-400 p-5'>What We Do</Link>
-                    <Link href="/" className='hover:text-gray-400 p-5'>Capabilites</Link>
-                    <Link href="/" className='hover:text-gray-400 p-5'>Contact Us</Link>
-                    <Link href="/" className='hover:text-gray-400 p-5'>About Us</Link>
+    </div>
+
+
+
+
+
+
+
+
 
                     <div className='flex flex-col gap-5  items-center mt-28 '>
             <div className='bg-green-600 w-[250px] h-[1px] '></div>
@@ -98,6 +122,8 @@ const navbar = () => {
         </div>
 
             </div>
+
+           
 
             
 
